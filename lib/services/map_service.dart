@@ -8,7 +8,7 @@ import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'package:http/http.dart' as http;
 
 class MapService extends GetxService {
-  final String apiKey = 'Your_google_api_key';
+  final String apiKey = 'YOUR_GOOGLE_API_KEY';
 
   final RxSet<Marker> markers = <Marker>{}.obs;
   final RxSet<Polyline> polylines = <Polyline>{}.obs;
